@@ -1,0 +1,45 @@
+- [[Login]]
+- [[Dashboard]] (叭啦叭啦…) -==dodo==
+- CHM
+  - [[CHM - Backup]] 系統備份 -==dodo==
+  - [[CHM - PC Manager]] 添加/移除電腦 -==dodo==
+  - User/Group/Roles
+    - [[CHM - User&Group]] -==xuan==
+    - [[CHM - Role]] 角色分配(身分組概念) -==dodo==
+  - [[CHM - Settings]] 設定 -xuan
+    - ==CHM Modules== +/-模組檔案
+      - Modules Configuration 更新現有模組 (no add/delete)
+    - ==IP Access Control== IP存取控制
+    - ==設定警告數值==  
+      可自己設監控條件 e.g.溫度>10 ->逼逼逼 整個server的監控  
+      可跟dashboard和在一起 設定的按鈕 多少% 數值多少  
+      條件:CPU RAM用量 硬碟空間 溫度(需要再看看
+- [[Process Manager]] (process 管理 -==dodo==
+- ==Disk Management== 磁碟管理 -xuan
+  - Mount & Unmount 進退磁碟(USB)  //略 (因一般使用者或管理員不能到後端插USB)
+  - Backup 備份 (檔案系統                    //略
+  - [[Disk - File Upload & Download]] 檔案管理 -==dodo==
+- [[Cron Management]] (包含cron Jobs, scheduled commands, 排班, 計畫排程 -==xuan==
+- [[Software Package]] (軟體更新, 下載, 刪除 -==xuan==
+- [[Logs]] (備份是否成功, CHM log, system log -==dodo==
+- [[Servers 目錄]] 後端有啥就載啥 整頁空白 -dodo
+  - Apache Webserver
+  - Nginx
+  - BIND DNS Server
+  - DHCP Server
+  - LDAP Server
+  - MySQL Database Server
+  - PostgreSQL Database Server
+  - ProFTPD Server
+  - Samba Windows File Sharing
+  - Squid Proxy Server
+  - SSH Server
+- Utils -xuan                 //略 (因技術還未成熟)
+  - Web Terminal
+- Networking
+  - [[Networking - Firewall]] 可仿造windows 專業的上網找GUI (IPv4、IPv6 -==dodo==
+  - [[Networking - Network Configuration]] -xuan
+    - ==Network Interface== 網路介面
+    - ==Routing and Gateways== 路由
+    - Hostname and DNS Client 主機名稱和 DNS 用戶端
+    - Host Address 主機位址
