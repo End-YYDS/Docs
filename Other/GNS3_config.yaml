@@ -1,0 +1,66 @@
+# Controller
+# network:
+#   version: 2
+#   ethernets:
+#     ens3:
+#       match:
+#         macaddress: "0c:fc:1c:eb:00:00"
+#       dhcp4: no
+#       dhcp6: no
+#       set-name: "ens3"
+#       addresses:
+#         - 10.0.0.10/24
+#       routes:
+#         - to: default
+#           via: 10.0.0.1
+#       nameservers:
+#         addresses: [8.8.8.8,8.8.4.4]
+#   vlans: {}
+#   tunnels:
+#     vxlan10:
+#       mode: vxlan
+#       id: 10
+#       remote: 10.0.0.5
+#       port: 4789
+#       link: ens3
+#       addresses:
+#         - 10.10.10.2/24
+#     vxlan20:
+#       mode: vxlan
+#       id: 20
+#       remote: 10.0.0.30
+#       port: 4789
+#       link: ens3
+#       addresses:
+#         - 10.10.20.2/24
+
+# Frontend
+# network:
+#   version: 2
+#   ethernets:
+#     ens3:
+#       match:
+#         macaddress: "0c:73:49:0b:00:00"
+#       dhcp4: true
+#       dhcp6: true
+#       set-name: "ens3"
+#       addresses:
+#         - 10.0.0.5/24
+#       routes:
+#         - to: default
+#           via: 10.0.0.1
+#       nameservers:
+#         addresses:
+#           - 8.8.8.8
+#           - 8.8.4.4
+#   vlans: {}
+#   tunnels:
+#     vxlan10:
+#       mode: vxlan
+#       id: 20
+#       remote: 10.0.0.10
+#       port: 4789
+#       link: ens3
+#       addresses:
+#         - 10.10.10.1/24
+
