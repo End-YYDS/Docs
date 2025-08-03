@@ -340,6 +340,32 @@ update模組的版本。
 },
 ```
 
+### 切換黑白名單
+
+點選切換黑名單或白名單。
+
+#### 位置
+
+- Method: ==Put==
+- URL: ==/api/chm/setting/ip==
+
+#### 參數
+
+```json
+{
+  "Mode": enum (White, Black),
+},
+```
+
+#### 回傳
+
+```json
+{
+  "Type": enum (OK or ERR),
+  "Message": String,
+},
+```
+
 ## 設定警告數值
 
 ### 取得所有設定值
