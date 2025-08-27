@@ -69,10 +69,8 @@
 
 #### 參數
 
-```Json
-{
-  "Uuids": [String]
-}
+```Query
+?Uuid=String&Uuid=String&...
 ```
 
 #### 回傳

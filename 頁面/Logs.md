@@ -42,12 +42,8 @@
 - URL: ==/api/logs/sys/query==
 
 #### 參數
-
-```Json
-{
-  "Search": enum("Month", "Day", "Time", "Direction", "Type"),
-  "Parameter": String, // 參數
-}
+```Query
+?Search=enum("Month", "Day", "Time", "Direction", "Type")&Parameter=String
 ```
 
 #### 回傳
@@ -104,10 +100,8 @@
 
 #### 參數
 
-```Json
-{
-  "Uuid": String,
-}
+```Query
+?Uuid=String
 ```
 
 #### 回傳
@@ -137,12 +131,9 @@
 
 #### 參數
 
-```Json
-{
-  "Uuid": String,
-  "Search": enum("Month", "Day", "Time", "Hostname", "Type"),
-  "Parameter": String, // 參數
-}
+
+```Query
+?Uuid=String&Search=enum("Month", "Day", "Time", "Hostname", "Type")&Parameter=String
 ```
 
 #### 回傳

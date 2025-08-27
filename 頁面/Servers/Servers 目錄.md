@@ -55,7 +55,7 @@
 #### 參數
 
 ```Query
-?Server=String,
+?Server=String
 ```
 
 #### 回傳
