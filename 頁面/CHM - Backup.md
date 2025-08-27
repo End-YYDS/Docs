@@ -24,9 +24,10 @@
 
 ```json
 {
-  "Type": enum (OK or ERR),
+  "Type": enum (Ok or Err),
   "Message": String,
-  "File": if Type is Local
+  "Id": String,
+  "DownloadUrl": String
 },
 ```
 
@@ -41,7 +42,9 @@
 
 #### 參數
 
-無參數
+```Query
+?limit=5
+```
 
 #### 回傳
 
@@ -49,13 +52,14 @@
 
 ```json
 {
-  "Datas": [
+  "Backups": [
     {
       "Name": String,
       "Date": {
         "Year": Int,
         "Month": Int,
-        "Day": Int
+        "Day": Int,
+        "Week": enum (Mon|Tue|Wed|Thu|Fri|Sat|Sun)
       },
       "Time": {
         "Hour": Int,

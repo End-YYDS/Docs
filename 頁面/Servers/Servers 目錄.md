@@ -25,10 +25,8 @@
 
 #### 參數
 
-```Json
-{
-  "Server": String,
-}
+```Query
+?Server=String
 ```
 
 #### 回傳
@@ -56,10 +54,8 @@
 
 #### 參數
 
-```Json
-{
-  "Server": String,
-}
+```Query
+?Server=String,
 ```
 
 #### 回傳
