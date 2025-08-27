@@ -12,7 +12,7 @@ panic = "abort"
 opt-level = 3
 ```
 ## mCA
-- [ ] 將toml添加進CA中
+- [x] 將toml添加進CA中
 - [x] mini-controller 的連線與配置文件設定
 - [x] 將發布出去的憑證添加到資料庫中
 - [ ] 憑證資料庫可以使用(toml、sqlite)來保存
@@ -23,6 +23,7 @@ opt-level = 3
 - [x] 添加除了sign 之外的gRPC 
 - [ ] miniController 先產生UUID之後先創憑證，創好之後，在開啟webServer, 等到controller來連線的時候順便交換UUID
 - [ ] 會從config中讀取hostname之後傳給Controller，由Controller 去DNS註冊
+- [ ] 與Controller需改用雙向通訊
 ### CRL
 - [x] grpc 的部分
 
@@ -32,6 +33,8 @@ opt-level = 3
 - [ ] 將原本從mDNS中產生UUID的拉到Controller來產生，只要後面有添加進叢集的自動分配UUID，Controller也同時會記錄
 - [ ] 後面再需要簽發憑證時會一併寫入UUID進SNI,
 - [ ] 第一次的時候，會先取得mCA的Hostname去mDNS註冊，第二次之後每次連線就會檢查hostname是否有變更，有變更就去mDNS中變更
+- [ ] 與mCA需改用雙向通訊
+- [ ] 使用postgesSQL,或是sqlite或記憶體中(podman container)保存添加過叢集裝置
 
 ## mDNS
 - [ ] 將每個dns server ip 寫入每個Service Config
