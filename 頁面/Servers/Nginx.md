@@ -18,8 +18,10 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 
 #### 參數
 
-```Query
-?Uuid=String
+```json
+{
+  "Uuid": String
+}
 ```
 
 #### 回傳

@@ -32,8 +32,10 @@
 
 #### 參數
 
-```Query
-?Uuid=String
+```json
+{
+  "Uuid": String,
+}
 ```
 
 #### 回傳

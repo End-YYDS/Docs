@@ -68,9 +68,10 @@
 - URL: ==/api/chm/pc/specific==
 
 #### 參數
-
-```Query
-?Uuid=String&Uuid=String&...
+```json
+{
+  "Uuid": [String]
+}
 ```
 
 #### 回傳
