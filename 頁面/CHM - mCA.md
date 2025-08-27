@@ -27,7 +27,7 @@
 #### 位置
 
 - Method: ==Get==
-- URL: ==/api/chm/mCA/revoke==
+- URL: ==/api/chm/mCA/revoked==
 
 #### 參數
 
@@ -51,7 +51,7 @@
 #### 位置
 
 - Method: ==Post==
-- URL: ==/api/chm/mCA/action/revoke==
+- URL: ==/api/chm/mCA/revoke==
 
 #### 參數
 
