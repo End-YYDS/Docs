@@ -49,12 +49,8 @@
 - URL: ==/api/chm/setting/module==
 
 #### 參數
-
-```json
-{
-  "Modules": [file],
-},
-```
+使用 multipart/form-data
+前端使用Form 送File 出來
 
 #### 回傳
 
@@ -83,12 +79,8 @@ update模組的版本。
 #### 參數
 
 更改整筆內容。
-
-```json
-{
-  "Modules": [file],
-}
-```
+使用 multipart/form-data
+前端使用Form 送File 出來
 
 #### 回傳
 
@@ -116,11 +108,9 @@ update模組的版本。
 
 #### 參數
 
-```json
-{
-  "Modules": file,
-}
-```
+更改整筆內容。
+使用 multipart/form-data
+前端使用Form 送File 出來
 
 #### 回傳
 
@@ -146,7 +136,7 @@ update模組的版本。
 
 ```json
 {
-  "Modules": [file],
+  "Modules": [String],
 },
 ```
 
