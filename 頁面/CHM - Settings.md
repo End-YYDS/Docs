@@ -1,6 +1,4 @@
-    ## RestfulApi :
-
-## Module
+# Module
 
 ### 取得模組清單
 
@@ -21,12 +19,16 @@
     "module01": {
       "Name": String,
       "Version": String,
+      "Description": String,
+      "Author": String,
       "Loadstatus": enum (Load or Notload),
       "Enablestatus": enum (Enable or Disable),
     },
     "module02": {
       "Name": String,
       "Version": String,
+      "Description": String,
+      "Author": String,
       "Loadstatus": enum (Installed or Notinstall),
       "Enablestatus": enum (Enable or Disable),
     },

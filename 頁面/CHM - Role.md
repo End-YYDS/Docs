@@ -15,13 +15,16 @@
 
 ```json
 {
-  "Roles": {
+  "Roles": [
+    {
     "RoleName": String,
     "Permissions": int, // bit operation, like 0001 (1 << 0)
     "Color": int, // 前端自存enum表（0: Blue, 1: Red...)
-    "Menbers": [int], // uid
+    "Members": [int], // uid
     "Length": Menbers.len,
-  },
+    }
+  ],
+  "Length": int
 },
 ```
 
@@ -41,7 +44,7 @@
 ```json
 {
   "Users": {
-    "uid01": String,
+      "uid01": String,
   },
   "Length": Users.len,
 },
@@ -61,7 +64,7 @@
   "RoleName": String,
   "Permissions": int, // bit operation, like 0001 (1 << 0)
   "Color": int, // 前端自存enum表（0: Blue, 1: Red...)
-  "Menbers": [int], // uid
+  "Members": [int], // uid
   "Length": Menbers.len,
 },
 ```
@@ -114,7 +117,7 @@
 
 ```json
 {
-  "Role": String,
+  "RoleName": String,
   "Members": [int], // uid
 },
 ```
@@ -141,7 +144,7 @@
 
 ```json
 {
-  "Role": String,
+  "RoleName": String,
   "Permissions": int, // bit operation, like 0001 (1 << 0)
   "Color": int,
 },
