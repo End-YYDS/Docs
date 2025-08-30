@@ -62,7 +62,7 @@ id 傳 -1 表索取全部數據 正整數表第幾台主機
   //target = "info.safe, info.warn, info.dang, cluster.Cpu, cluster.Memory, cluster.Disk"
   "Zone": "info",
   "Target": "safe",
-  "Uuid": (-1) if all data
+  "Uuid": String, (None) if all data
 },
 ```
 

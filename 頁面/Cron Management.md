@@ -1,5 +1,3 @@
-![[Crontab UI Flow.gif]]
-
 ## RestfulApi :
 
 ### 獲取所有排程表內容

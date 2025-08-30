@@ -133,7 +133,7 @@
 
 ```json
 {
-  "Type": enum (虛擬 or 實體),
+  "Type": enum (Virtual or Physical),
   "Ipv4": String,
   "Netmask": String,
   "Mac": String,
@@ -301,6 +301,7 @@
 
 ```json
 {
+  "Nid": String,
   "Destination": String,
   "Type": enum, // 底下項目
   // "Via": String,
@@ -332,6 +333,7 @@
 
 ```json
 {
+  "Nid": String,
   "Destination": String,
   "Via": String,
   "Dev": String,
