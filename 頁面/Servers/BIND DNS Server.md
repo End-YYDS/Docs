@@ -64,6 +64,7 @@
         "Date": {
           "Year": Int,
           "Month": enum (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec),
+          "Week": enum (Mon|Tue|Wed|Thu|Fri|Sat|Sun),
           "Day": Int,
           "Time": {
             "Hour": Int,

@@ -40,6 +40,7 @@
       {
         "Date": {
           "Year": Int,
+          "Week": enum (Mon|Tue|Wed|Thu|Fri|Sat|Sun),
           "Month": enum (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec),
           "Day": Int,
           "Time": {

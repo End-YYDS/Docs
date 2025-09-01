@@ -45,7 +45,7 @@
 
 ```json
 {
-  "uuid": [String],
+  "Uuid": [String],
   "Packages": [String],
 },
 ```
@@ -78,7 +78,7 @@
 
 ```json
 {
-  "uuid": [String],
+  "Uuid": [String],
   "Package": [String],
 }
 ```

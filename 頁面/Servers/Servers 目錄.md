@@ -21,7 +21,7 @@
 #### 位置
 
 - Method: ==Get==
-- URL: ==/api/servers/installed==
+- URL: ==/api/server/installed==
 
 #### 參數
 
@@ -52,7 +52,7 @@
 #### 位置
 
 - Method: ==Get==
-- URL: ==/api/servers/noinstall==
+- URL: ==/api/server/noinstall==
 
 #### 參數
 
@@ -83,7 +83,7 @@
 #### 位置
 
 - Method: ==Post==
-- URL: ==/api/servers/install==
+- URL: ==/api/server/install==
 
 #### 參數
 

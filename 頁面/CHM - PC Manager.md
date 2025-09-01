@@ -300,7 +300,7 @@
 
 ```json
 {
-  "vxlanid": id
+  "Vxlanid": id
 },
 ```
 

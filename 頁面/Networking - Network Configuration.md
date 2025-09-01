@@ -20,7 +20,7 @@
       "Networks": {
         "nid":{
           // "Name": String,
-          "Type": enum (虛擬 or 實體),
+          "Type": enum (Virtual or Physical),
           "Ipv4": String,
           "Netmask": String,
           "Mac": String,
@@ -48,7 +48,7 @@
 ```json
 {
   "Nid": String,
-  "Type": enum (虛擬 or 實體),
+  "Type": enum (Virtual or Physical),
   "Ipv4": String,
   "Netmask": String,
   "Mac": String,
@@ -102,8 +102,7 @@
 
 ```json
 {
-  "Type": enum, // 底下項目
-  // "Type": enum (虛擬 or 實體),
+  "Nid": String,
   // "Ipv4": String,
   // "Netmask": String,
   // "Mac": String,
@@ -133,6 +132,7 @@
 
 ```json
 {
+  "Nid": String,
   "Type": enum (Virtual or Physical),
   "Ipv4": String,
   "Netmask": String,

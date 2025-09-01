@@ -63,7 +63,18 @@
 {
   "RoleName": String,
   "Permissions": int, // bit operation, like 0001 (1 << 0)
-  "Color": int, // 前端自存enum表（0: Blue, 1: Red...)
+  "Color": enum( 
+    Red,
+    Green,
+    Blue,
+    Yellow,
+    Purple,
+    Orange,
+    Black,
+    White,
+    Gray,
+    Custom(String)
+    ), // 前端自存enum表（0: Blue, 1: Red...)
   "Members": [int], // uid
   "Length": Menbers.len,
 },
@@ -146,7 +157,18 @@
 {
   "RoleName": String,
   "Permissions": int, // bit operation, like 0001 (1 << 0)
-  "Color": int,
+  "Color": "Color": enum( 
+    Red,
+    Green,
+    Blue,
+    Yellow,
+    Purple,
+    Orange,
+    Black,
+    White,
+    Gray,
+    Custom(String)
+    ),
 },
 ```
 
