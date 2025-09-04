@@ -101,7 +101,7 @@
 ```json
 {
   "Uuids": [String],
-  "Passwords" [String],
+  "Passwords": [String],
 },
 ```
 
