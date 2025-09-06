@@ -25,11 +25,11 @@
         "package02": {
           "Version": String,
           "Status": enum (Installed or Notinstall),
-        },
+        },..
       },
     }, …
-  },
-},
+  }
+}
 ```
 
 ### 安裝軟體套件
@@ -46,8 +46,8 @@
 ```json
 {
   "Uuid": [String],
-  "Packages": [String],
-},
+  "Packages": [String]
+}
 ```
 
 #### 回傳
@@ -61,10 +61,10 @@
     "package01": {
       "Installed": [uuid],
       "Notinstalled": [uuid]
-    },
+    },...
   },
-  "Length": Packages.len,
-},
+  "Length": Packages.len
+}
 ```
 
 ### 刪除
@@ -79,7 +79,7 @@
 ```json
 {
   "Uuid": [String],
-  "Package": [String],
+  "Package": [String]
 }
 ```
 
@@ -93,10 +93,10 @@
     "package01": {
       "Installed": [uuid],
       "Notinstalled": [uuid]
-    },
+    },...
   },
-  "Length": Packages.len,
-},
+  "Length": Packages.len
+}
 ```
 
 ### 更新(待定

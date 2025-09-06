@@ -14,7 +14,7 @@
 ```Json
 {
   "Type": enum: [Remote,Local],
-  "Name": String,
+  "Name": String
 }
 ```
 
@@ -28,7 +28,7 @@
   "Message": String,
   "Id": String,
   "DownloadUrl": String
-},
+}
 ```
 
 ### 取得備份資料
@@ -69,7 +69,7 @@
       }
     }, //...
   ],
-  "Length": Data.len,
+  "Length": Data.len
 }
 ```
 
@@ -103,6 +103,6 @@ for i in data.Data:
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

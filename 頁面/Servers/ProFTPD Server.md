@@ -1,6 +1,6 @@
 ## RestfulApi :
 
-在 Apache Webserver 頁面中，點進單一電腦後
+在 ProFTPD 頁面中，點進單一電腦後
 
 ### 伺服器狀態監控
 
@@ -104,7 +104,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -115,8 +115,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 停止伺服器
@@ -130,7 +130,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -141,8 +141,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 重新啟動伺服器
@@ -156,7 +156,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -167,6 +167,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

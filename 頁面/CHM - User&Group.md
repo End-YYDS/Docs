@@ -21,8 +21,8 @@
       "Shell": String,
     },
   },
-  "Length": Users.len,
-},
+  "Length": Users.len
+}
 ```
 
 ### 新增User
@@ -39,8 +39,8 @@
   "Username": String,
   "Group": [String],
   "Home_directory": String,
-  "Shell": String,
-},
+  "Shell": String
+}
 ```
 
 #### 回傳
@@ -50,8 +50,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新整筆User
@@ -72,7 +72,7 @@
     "Group": [String],
     "Home_directory": String,
     "Shell": String,
-  },
+  }
 }
 ```
 
@@ -83,8 +83,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新User單一內容
@@ -105,7 +105,7 @@
     //"Group": [String],
     //"Home_directory": String,
     //"Shell": String,
-  },
+  }
 }
 ```
 
@@ -116,8 +116,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除User
@@ -132,7 +132,7 @@
 ```json
 {
   "uid": id
-},
+}
 ```
 
 #### 回傳
@@ -142,8 +142,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 取得所有群組資訊
@@ -164,11 +164,11 @@
   "Groups": {
     "gid01":{
       "Groupname": String,
-      "Users": [uid.username],
+      "Users": [uid.username]
       //"Permission"
-    },
-  },
-},
+    },...
+  }
+}
 //data.Groups.gid01.users
 ```
 
@@ -184,8 +184,8 @@
 ```json
 {
   "Groupname": String,
-  "Users": [uid.username],
-},
+  "Users": [uid.username]
+}
 ```
 
 #### 回傳
@@ -195,8 +195,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新整筆Group
@@ -215,7 +215,7 @@
   "gid01":{
     "Groupname": String,
     "Users": [uid.username],
-  },
+  }
 }
 ```
 
@@ -226,8 +226,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新Group單一內容
@@ -244,9 +244,9 @@
 ```json
 {
   "gid01":{
-    "Groupname": String,
+    "Groupname": String
     //"Users": [uid.username],
-  },
+  }
 }
 ```
 
@@ -257,8 +257,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除Group
@@ -273,7 +273,7 @@
 ```json
 {
   "gid": id
-},
+}
 ```
 
 #### 回傳
@@ -283,6 +283,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

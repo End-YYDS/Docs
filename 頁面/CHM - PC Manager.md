@@ -14,8 +14,8 @@
 ```json
 {
   "Ip": String, // 實體ip
-  "Password": String,
-},
+  "Password": String
+}
 ```
 
 #### 回傳
@@ -30,8 +30,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 取得所有主機
@@ -52,10 +52,10 @@
   "Pcs": {
     "uuid": {
       "Hostname": String,
-      "Ip": String,
+      "Ip": String
     }, …
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 //Pcs.id
 ```
@@ -81,10 +81,10 @@
   "Pcs": {
     "uuid": {
       "Hostname": String,
-      "Ip": String,
+      "Ip": String
     }, …
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 //Pcs.id
 ```
@@ -115,7 +115,7 @@
     "Type": enum (OK or ERR),
     "Message": String,
   }, ...
-},
+}
 ```
 
 ### Reboot
@@ -129,8 +129,8 @@
 
 ```json
 {
-  "Uuids": [String],
-},
+  "Uuids": [String]
+}
 ```
 
 #### 回傳
@@ -140,8 +140,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### Shutdown
@@ -155,8 +155,8 @@
 
 ```json
 {
-  "Uuids": [String],
-},
+  "Uuids": [String]
+}
 ```
 
 #### 回傳
@@ -166,8 +166,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 # PC Group
@@ -192,10 +192,10 @@
   "Groups": {
     "vxlanid": { // VXLAN id
       "Groupname": String,
-      "Pcs": [uuid.hostname],
+      "Pcs": [uuid.hostname]
     }, …
   },
-  "Length": Groups.len,
+  "Length": Groups.len
 }
 //Pcs.id
 ```
@@ -212,8 +212,8 @@
 ```json
 {
   "Groupname": String,
-  "Describe": String,
-},
+  "Describe": String
+}
 ```
 
 #### 回傳
@@ -223,8 +223,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新整筆Group
@@ -242,8 +242,8 @@
 {
   "vxlanid":{
     "Groupname": String,
-    "Pcs": [uuid.hostname],
-  },
+    "Pcs": [uuid.hostname]
+  }
 }
 ```
 
@@ -254,8 +254,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新Group單一內容
@@ -274,7 +274,7 @@
   "vxlanid":{
     "Groupname": String,
     //"Pcs": [uuid.hostname],
-  },
+  }
 }
 ```
 
@@ -285,8 +285,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除Group
@@ -301,7 +301,7 @@
 ```json
 {
   "Vxlanid": id
-},
+}
 ```
 
 #### 回傳
@@ -311,6 +311,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

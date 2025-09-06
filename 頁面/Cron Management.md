@@ -26,7 +26,7 @@
         "Hour": Int,
         "Date": Int,
         "Month": Int,
-        "Week": Int,
+        "Week": Int
       },
       "Username": String,
     },
@@ -38,7 +38,7 @@
         "Hour": Int,
         "Date": Int,
         "Month": Int,
-        "Week": Int,
+        "Week": Int
       },
       "Username": String,
     }, …
@@ -68,10 +68,10 @@
     "Hour": Int,
     "Date": Int,
     "Month": Int,
-    "Week": Int,
+    "Week": Int
   },
-  "Username": String,
-},
+  "Username": String
+}
 ```
 
 #### 回傳
@@ -81,8 +81,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除
@@ -107,8 +107,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更新
@@ -130,11 +130,11 @@
       "Hour": Int,
       "Date": Int,
       "Month": Int,
-      "Week": Int,
+      "Week": Int
     },
-    "Username": String,
-  },
-},
+    "Username": String
+  }
+}
 ```
 
 #### 回傳
@@ -144,8 +144,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 匯入
@@ -159,8 +159,8 @@
 
 ```json
 {
-  file,
-},
+  file
+}
 ```
 
 #### 回傳
@@ -170,8 +170,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 匯出
@@ -192,6 +192,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": file,
-},
+  "Message": file
+}
 ```

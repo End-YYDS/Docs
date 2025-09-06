@@ -23,14 +23,14 @@
       "Day": Int,
       "Time": {
         "Hour": Int,
-        "Min": Int,
+        "Min": Int
       },
       "Direction": String, // 方向 A to B
       "Type": String, // 類別
-      "Messages": String,
+      "Messages": String
     }, ...
   },
-  "Length": Logs.len,
+  "Length": Logs.len
 }
 ```
 
@@ -61,10 +61,10 @@
       "Time": String,
       "Direction": String, // 方向 A to B
       "Type": String, // 類別
-      "Messages": String,
+      "Messages": String
     }, ...
   },
-  "Length": Logs.len,
+  "Length": Logs.len
 }
 ```
 
@@ -90,7 +90,7 @@
   "Pcs": {
     "uuid":  String, ... // hostname
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 //Pcs.id
 ```
@@ -121,11 +121,11 @@
       "Time": String,
       "Hostname": String,
       "Type": String, // 類別
-      "Messages": String,
+      "Messages": String
     }, ...
   },
-  "Length": Logs.len,
-},
+  "Length": Logs.len
+}
 ```
 
 ### 篩選條件取得 Logs

@@ -18,8 +18,8 @@
     "Signer": String,
     "Period": String, //有效期間
   },
-  "Length": Valid.len,
-},
+  "Length": Valid.len
+}
 ```
 
 ### 取得已吊銷憑證列表
@@ -42,8 +42,8 @@
     "Time": String, //吊銷當下的時間
     "Reason": String,
   },
-  "Length": Revoke.len,
-},
+  "Length": Revoke.len
+}
 ```
 
 ### 吊銷憑證
@@ -58,8 +58,8 @@
 ```json
 {
   "Name": String, //通用名稱
-  "Reason": String,
-},
+  "Reason": String
+}
 ```
 
 #### 回傳
@@ -67,6 +67,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

@@ -33,8 +33,8 @@
       "Enablestatus": enum (Enable or Disable),
     },
   },
-  "Length": Modules.len,
-},
+  "Length": Modules.len
+}
 ```
 
 ### 加載模組
@@ -63,8 +63,8 @@
     "Notload": [String],
     "Load_Length": Load.len,
     "Notload_Length": Notload.len,
-  },
-},
+  }
+}
 ```
 
 ### 更新整個模組
@@ -93,8 +93,8 @@ update模組的版本。
     "Fail": [String],
     "Success_Length": Success.length,
     "Fail_Length": Fail.length,
-  },
-},
+  }
+}
 ```
 
 ### 針對模組自己本身的設定做更新
@@ -119,8 +119,8 @@ update模組的版本。
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除模組
@@ -136,8 +136,8 @@ update模組的版本。
 
 ```json
 {
-  "Modules": [String],
-},
+  "Modules": [String]
+}
 ```
 
 #### 回傳
@@ -150,9 +150,9 @@ update模組的版本。
     "Delete": [String],
     "Notdelete": [String],
     "Delete_Length": Delete.length,
-    "Notdelete_Length": Notdelete.length,
-  },
-},
+    "Notdelete_Length": Notdelete.length
+  }
+}
 ```
 
 ### 模組啟用
@@ -166,7 +166,7 @@ update模組的版本。
 
 ```json
 {
-  "Modules": [String],
+  "Modules": [String]
 },
 ```
 
@@ -180,9 +180,9 @@ update模組的版本。
     "Success": [String],
     "Fail": [String],
     "Success_Length": Success.length,
-    "Fail_Length": Fail.length,
-  },
-},
+    "Fail_Length": Fail.length
+  }
+}
 ```
 
 ### 模組停用
@@ -196,7 +196,7 @@ update模組的版本。
 
 ```json
 {
-  "Modules": [String],
+  "Modules": [String]
 },
 ```
 
@@ -210,9 +210,9 @@ update模組的版本。
     "Success": [String],
     "Fail": [String],
     "Success_Length": Success.length,
-    "Fail_Length": Fail.length,
-  },
-},
+    "Fail_Length": Fail.length
+  }
+}
 ```
 
 ## IP Access Control
@@ -237,8 +237,8 @@ update模組的版本。
 ```json
 {
   "Mode": enum (None),
-  "Lists": None,
-},
+  "Lists": None
+}
 ```
 
 開白名單
@@ -249,14 +249,14 @@ update模組的版本。
   "Lists": {
     "did01": {
       "Name": String,
-      "Ip": String,
+      "Ip": String
     },
     "did02": {
       "Name": String,
-      "Ip": String,
-    },
-  },
-},
+      "Ip": String
+    },...
+  }
+}
 ```
 
 開黑名單
@@ -267,14 +267,14 @@ update模組的版本。
   "Lists": {
     "did01": {            //did是database裡的id
       "Name": String,
-      "Ip": String,
+      "Ip": String
     },
     "did02": {
       "Name": String,
-      "Ip": String,
-    },
-  },
-},
+      "Ip": String
+    },...
+  }
+}
 ```
 
 ### 新增IP
@@ -292,8 +292,8 @@ update模組的版本。
 {
   "Mode": enum (White, Black),
   "Name": String,
-  "Ip": String,
-},
+  "Ip": String
+}
 ```
 
 #### 回傳
@@ -301,8 +301,8 @@ update模組的版本。
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除IP
@@ -319,8 +319,8 @@ update模組的版本。
 ```json
 {
   "Mode": enum (White, Black),
-  "Did": id,
-},
+  "Did": id
+}
 ```
 
 #### 回傳
@@ -328,8 +328,8 @@ update模組的版本。
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 切換黑白名單
@@ -345,8 +345,8 @@ update模組的版本。
 
 ```json
 {
-  "Mode": enum (White, Black),
-},
+  "Mode": enum (White, Black)
+}
 ```
 
 #### 回傳
@@ -354,8 +354,8 @@ update模組的版本。
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ## 設定警告數值
@@ -381,8 +381,8 @@ update模組的版本。
   "Cpu_usage": Float,
   "Disk_usage": Float,
   "Memory": Float,
-  "Network": Float,
-},
+  "Network": Float
+}
 ```
 
 ### 更改監控數值
@@ -401,8 +401,8 @@ update模組的版本。
   "Cpu_usage": Float,
   "Disk_usage": Float,
   "Memory": Float,
-  "Network": Float,
-},
+  "Network": Float
+}
 ```
 
 #### 回傳
@@ -410,8 +410,8 @@ update模組的版本。
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ## Backup config

@@ -33,7 +33,7 @@
     },...
   },
   "Length": Pcs.len
-},
+}
 ```
 
 ### 新增Network Interface
@@ -55,7 +55,7 @@
   "Broadcast": String,
   "Mtu": Int,
   "Status": enum (Up or Down)
-},
+}
 ```
 
 #### 回傳
@@ -63,8 +63,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除Network Interface
@@ -79,7 +79,7 @@
 ```json
 {
   "Nid": String,
-},
+}
 ```
 
 #### 回傳
@@ -87,8 +87,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 編輯單一項目
@@ -109,7 +109,7 @@
   // "Broadcast": String,
   // "Mtu": Int,
   // "Status": enum (Up or Down)
-},
+}
 ```
 
 #### 回傳
@@ -117,8 +117,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 編輯整筆項目
@@ -140,7 +140,7 @@
   "Broadcast": String,
   "Mtu": Int,
   "Status": enum (Up or Down)
-},
+}
 ```
 
 #### 回傳
@@ -148,8 +148,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 啟動Network Interface
@@ -163,8 +163,8 @@
 
 ```json
 {
-  "Nid": String,
-},
+  "Nid": String
+}
 ```
 
 #### 回傳
@@ -172,8 +172,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 關閉Network Interface
@@ -187,8 +187,8 @@
 
 ```json
 {
-  "Nid": String,
-},
+  "Nid": String
+}
 ```
 
 #### 回傳
@@ -196,8 +196,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ## Routing and Gateways
@@ -233,7 +233,7 @@
     },...
   },
   "Length": Pcs.len
-},
+}
 ```
 
 ### 新增router
@@ -253,8 +253,8 @@
   "Proto": String,
   "Metric": Int,
   "Scope": String,
-  "Src": String,
-},
+  "Src": String
+}
 ```
 
 #### 回傳
@@ -262,8 +262,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除router
@@ -277,8 +277,8 @@
 
 ```json
 {
-  "Destination": String,
-},
+  "Destination": String
+}
 ```
 
 #### 回傳
@@ -286,8 +286,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 編輯單一項目
@@ -303,14 +303,14 @@
 {
   "Nid": String,
   "Destination": String,
-  "Type": enum, // 底下項目
+  "Type": enum(Via(String),Dev(String),Proto(String),Metric(Int),Scope(String),Src(String)), // 底下項目
   // "Via": String,
   // "Dev": String,
   // "Proto": String,
   // "Metric": Int,
   // "Scope": String,
   // "Src": String,
-},
+}
 ```
 
 #### 回傳
@@ -318,8 +318,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 編輯整筆項目
@@ -340,8 +340,8 @@
   "Proto": String,
   "Metric": Int,
   "Scope": String,
-  "Src": String,
-},
+  "Src": String
+}
 ```
 
 #### 回傳
@@ -349,8 +349,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ## Hostname and DNS Client
@@ -376,10 +376,10 @@
       "DNS": {
         "Primary": String,
         "Secondary": String,
-      },
-    },
-  },
-},
+      }
+    },...
+  }
+}
 ```
 
 ### 更改Hostname
@@ -393,8 +393,8 @@
 
 ```json
 {
-  "Uuid": String, // hostname
-},
+  "Uuid": String // hostname
+}
 ```
 
 #### 回傳
@@ -402,8 +402,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 更改DNS Server IP
@@ -420,8 +420,8 @@
 ```json
 {
   "Primary": String,
-  "Secondary": String,
-},
+  "Secondary": String
+}
 ```
 
 #### 回傳
@@ -429,6 +429,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

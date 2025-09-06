@@ -22,7 +22,7 @@
   "Pcs": {
     "uuid": String, // hostname
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 //Pcs.id
 ```
@@ -39,7 +39,7 @@
 ```json
 {
   "uuid": {
-    "Directory": String, // 預設根目錄
+    "Directory": String // 預設根目錄
   }
 }
 ```
@@ -57,7 +57,7 @@
       "Modified": String,
     }, ...
   },
-  "Length": Files.len,
+  "Length": Files.len
 }
 ```
 
@@ -75,7 +75,7 @@
 ```json
 {
   "Uuid": String, // 目標主機 uuid
-  "File": [file],
+  "File": [file]
 }
 ```
 
@@ -86,8 +86,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 下載檔案
@@ -102,7 +102,7 @@
 ```json
 {
   "Uuid": String, // 目標主機 uuid
-  "Filename": String,
+  "Filename": String
 }
 ```
 
@@ -113,8 +113,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ## 虛擬目錄
@@ -134,7 +134,7 @@
 
 ```json
 {
-  "Path": String,
+  "Path": String
 }
 ```
 
@@ -151,7 +151,7 @@
 
 ```json
 {
-  "File": [file],
+  "File": [file]
 }
 ```
 
@@ -162,8 +162,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 下載檔案
@@ -177,7 +177,7 @@
 
 ```json
 {
-  "Filename": String,
+  "Filename": String
 }
 ```
 
@@ -188,6 +188,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

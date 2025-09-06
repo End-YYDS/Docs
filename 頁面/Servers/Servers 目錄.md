@@ -58,7 +58,7 @@
 
 ```json
 {
-  "Server": String,
+  "Server": String
 }
 ```
 
@@ -74,7 +74,7 @@
       "Memory": float,
     }, …
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 ```
 
@@ -90,7 +90,7 @@
 ```Json
 {
   "Server": String,
-  "Uuids": [String],
+  "Uuids": [String]
 }
 ```
 
@@ -99,8 +99,8 @@
 ```Json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 - 檢測所有電腦 有哪些server

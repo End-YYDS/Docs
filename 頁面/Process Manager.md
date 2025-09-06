@@ -25,11 +25,11 @@
           "Boot": Boolean
         }, ...
       },
-      "Length": Process.len,
+      "Length": Process.len
     }, ...
   },
-  "Length": Pcs.len,
-},
+  "Length": Pcs.len
+}
 ```
 
 ### 取得單一電腦的 Process
@@ -58,8 +58,8 @@
       "Boot": Boolean
     }, ...
   },
-  "Length": Process.len,
-},
+  "Length": Process.len
+}
 ```
 
 ### 設定Process啟動
@@ -74,8 +74,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -85,8 +85,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 設定Process停止
@@ -101,8 +101,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -112,8 +112,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 設定Process重新啟動
@@ -128,8 +128,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -139,8 +139,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 設定Process開機自動開始
@@ -155,8 +155,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -166,8 +166,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 設定Process開機時不自動開始
@@ -182,8 +182,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -193,8 +193,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 設定Process開機自動開始 且 Process立即開始
@@ -209,8 +209,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -220,8 +220,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 設定Process開機時不自動開始 且 Process立即停止
@@ -236,8 +236,8 @@
 ```json
 {
   "Uuid": String,
-  "Process": String,
-},
+  "Process": String
+}
 ```
 
 #### 回傳
@@ -247,6 +247,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

@@ -12,8 +12,8 @@
 ```json
 {
   "Username": String,
-  "Password": String, // 需要經過加密再傳給後端
-},
+  "Password": String // 需要經過加密再傳給後端
+}
 ```
 
 #### 回傳
@@ -21,6 +21,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

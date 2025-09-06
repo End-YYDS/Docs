@@ -13,7 +13,7 @@
 
 ```json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -76,7 +76,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -87,8 +87,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 停止伺服器
@@ -102,7 +102,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -113,8 +113,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 重新啟動伺服器
@@ -128,7 +128,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -139,6 +139,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

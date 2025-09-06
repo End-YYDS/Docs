@@ -85,7 +85,7 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
         "Upstream_Response_Time": float, // 反向代理請求的後端響應時間
       } // ...
     ],
-    "Acclength": Access_log.len,
+    "Acclength": Access_log.len
   }
 }
 ```
@@ -101,7 +101,7 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -112,8 +112,8 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 停止伺服器
@@ -127,7 +127,7 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -138,8 +138,8 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 重新啟動伺服器
@@ -153,7 +153,7 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -164,6 +164,6 @@ Apache 主要關心 **當前連線數**，但 Nginx 的 **事件驅動架構** �
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

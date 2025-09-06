@@ -32,14 +32,14 @@ cluster區（叢集，所有主機取平均）：包含CPU折線圖、Memory折�
   "Info": {
     "Safe": Int, // 幾台電腦
     "Warn": Int, // 幾台電腦
-    "Dang": Int, // 幾台電腦
+    "Dang": Int // 幾台電腦
   },
   "Cluster": {
     "Cpu": float,
     "Memory": float,
-    "Disk": float,
-  },
-},
+    "Disk": float
+  }
+}
 ```
 
 ### 取得資訊
@@ -63,7 +63,7 @@ id 傳 -1 表索取全部數據 正整數表第幾台主機
   "Zone": "info",
   "Target": "safe",
   "Uuid": String, (None) if all data
-},
+}
 ```
 
 #### 回傳
@@ -74,10 +74,10 @@ id 傳 -1 表索取全部數據 正整數表第幾台主機
     "uuid": {
       "Cpu": float,
       "Memory": float,
-      "Disk": float,
+      "Disk": float
     }, …
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 //Pcs.id.Cpu
 ```
@@ -103,14 +103,14 @@ id 傳 -1 表索取全部數據 正整數表第幾台主機
 
 ```json
 {
-  "ReloadRate": Int,
-},
+  "ReloadRate": Int
+}
+```
 
 Config {
   "ReloadRate",
   … // 待增加
 },
-```
 
 ### List頁面
 

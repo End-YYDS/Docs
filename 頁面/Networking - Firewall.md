@@ -18,7 +18,7 @@
   "Pcs": {
     "uuid": String, // hostname
   },
-  "Length": Pcs.len,
+  "Length": Pcs.len
 }
 //Pcs.id
 ```
@@ -34,7 +34,7 @@
 
 ```json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -135,8 +135,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除防火牆規則
@@ -163,8 +163,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 修改防火牆狀態（啟用/停用）
@@ -190,8 +190,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 修改預設策略（Policy）
@@ -218,6 +218,6 @@ policy是否修改成功
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

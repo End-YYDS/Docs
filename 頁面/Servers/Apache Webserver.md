@@ -13,7 +13,7 @@
 
 ```json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -36,14 +36,14 @@
           "Week": enum (Mon|Tue|Wed|Thu|Fri|Sat|Sun),
           "Time": {
             "Hour": Int,
-            "Min": Int,
+            "Min": Int
           }
         },
         "Module": String,
         "Level": enum (debug|info|notice|warn|error|crit|alert|emerg),
         "Pid": Int,
         "Client": String, // 發送請求的 IP 和 Port
-        "Message": String,
+        "Message": String
       }, // ...
     ],
     "Errlength": Error_log.len,
@@ -57,7 +57,7 @@
           "Day": Int,
           "Time": {
             "Hour": Int,
-            "Min": Int,
+            "Min": Int
           }
         },
         "Method": String, // 請求方法 如GET POST
@@ -66,10 +66,10 @@
         "Status": Int, // HTTP 狀態碼（如 200 成功，404 找不到）
         "Byte": Int, // 回應大小
         "Referer": String, // 來源網站（如 "https://example.com"）
-        "User_Agent": String, // 使用者瀏覽資訊
+        "User_Agent": String // 使用者瀏覽資訊
       }, // ...
     ],
-    "Acclength": Access_log.len,
+    "Acclength": Access_log.len
   }
 }
 ```
@@ -85,7 +85,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -96,8 +96,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 停止伺服器
@@ -111,7 +111,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -122,8 +122,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 重新啟動伺服器
@@ -137,7 +137,7 @@
 
 ```Json
 {
-  "Uuid": String,
+  "Uuid": String
 }
 ```
 
@@ -148,6 +148,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```

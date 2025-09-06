@@ -25,7 +25,7 @@
     }
   ],
   "Length": int
-},
+}
 ```
 
 ### 取得所有使用者資訊
@@ -46,8 +46,8 @@
   "Users": {
       "uid01": String,
   },
-  "Length": Users.len,
-},
+  "Length": Users.len
+}
 ```
 
 ### 建立角色（身份組）
@@ -76,8 +76,8 @@
     Custom(String)
     ), // 前端自存enum表（0: Blue, 1: Red...)
   "Members": [int], // uid
-  "Length": Menbers.len,
-},
+  "Length": Menbers.len
+}
 ```
 
 #### 回傳
@@ -87,8 +87,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 刪除角色
@@ -102,8 +102,8 @@
 
 ```json
 {
-  "RoleName": String,
-},
+  "RoleName": String
+}
 ```
 
 #### 回傳
@@ -113,8 +113,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 角色配置
@@ -129,8 +129,8 @@
 ```json
 {
   "RoleName": String,
-  "Members": [int], // uid
-},
+  "Members": [int] // uid
+}
 ```
 
 #### 回傳
@@ -140,8 +140,8 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
 
 ### 編輯角色權限
@@ -168,8 +168,8 @@
     White,
     Gray,
     Custom(String)
-    ),
-},
+    )
+}
 ```
 
 #### 回傳
@@ -179,6 +179,6 @@
 ```json
 {
   "Type": enum (OK or ERR),
-  "Message": String,
-},
+  "Message": String
+}
 ```
