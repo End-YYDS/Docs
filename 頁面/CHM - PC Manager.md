@@ -51,6 +51,7 @@
 {
   "Pcs": {
     "uuid": {
+      "Status": Boolean,
       "Hostname": String,
       "Ip": String
     }, …
@@ -80,6 +81,7 @@
 {
   "Pcs": {
     "uuid": {
+      "Status": Boolean,
       "Hostname": String,
       "Ip": String
     }, …

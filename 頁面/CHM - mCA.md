@@ -13,11 +13,13 @@
 
 ```json
 {
-  "Valid": {
-    "Name": String, //通用名稱
-    "Signer": String,
-    "Period": String, //有效期間
-  },
+  "Valid": [
+    {
+      "Name": String, //通用名稱
+      "Signer": String,
+      "Period": String, //有效期間
+    }
+  ]...,
   "Length": Valid.len
 }
 ```
@@ -37,11 +39,13 @@
 
 ```json
 {
-  "Revoke": {
-    "Number": String, //序號
-    "Time": String, //吊銷當下的時間
-    "Reason": String,
-  },
+  "Revoke": [
+    {
+      "Number": String, //序號
+      "Time": String, //吊銷當下的時間
+      "Reason": String,
+    }
+  ],
   "Length": Revoke.len
 }
 ```
