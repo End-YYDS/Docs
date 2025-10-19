@@ -16,9 +16,15 @@
   "Users": {
     "uid01":{
       "Username": String,
-      "Group": [String],
+      "Cn": String,
+      "Sn": String,
       "Home_directory": String,
       "Shell": String,
+      "Given_name": String,
+      "Display_name": String,
+      "Gid_number": String,
+      "Group": [String],
+      "Gecos": String
     },
   },
   "Length": Users.len
@@ -37,9 +43,15 @@
 ```json
 {
   "Username": String,
-  "Group": [String],
+  "Password: String,
+  "Cn": String,
+  "Sn": String,
   "Home_directory": String,
-  "Shell": String
+  "Shell": String,
+  "Given_name": String,
+  "Display_name": String,
+  "Group": [String],
+  "Gecos": String
 }
 ```
 
@@ -67,11 +79,16 @@
 
 ```json
 {
-  "uid01":{
-    "Username": String,
-    "Group": [String],
+  "uid01":{ // uid是使用者名稱
+    "Password": String,
+    "Cn": String,
+    "Sn": String,
     "Home_directory": String,
     "Shell": String,
+    "Given_name": String,
+    "Display_name": String,
+    "Group": [String],
+    "Gecos": String
   }
 }
 ```
@@ -101,10 +118,15 @@
 ```json
 {
   "uid01":{
-    "Username": String,
-    //"Group": [String],
+    "Password": String,
+    //"Cn": String,
+    //"Sn": String,
     //"Home_directory": String,
     //"Shell": String,
+    //"Given_name": String,
+    //"Display_name": String,
+    //"Group": [String],
+    //"Gecos": String
   }
 }
 ```
