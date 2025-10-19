@@ -43,7 +43,7 @@
 ```json
 {
   "Username": String,
-  "Password: String,
+  "Password": String,
   "Cn": String,
   "Sn": String,
   "Home_directory": String,
