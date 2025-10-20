@@ -75,6 +75,7 @@
 ```json
 {
   "Uuid": String, // 目標主機 uuid
+  "Path": String,
   "File": [file]
 }
 ```
