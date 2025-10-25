@@ -113,7 +113,6 @@
 
 ```json
 {
-  {
   "Pcs": {
     "uuid": {
       "Type": enum (OK or ERR),
@@ -121,7 +120,6 @@
     },...
   },
   "Length": Pcs.len
-}
 }
 ```
 
