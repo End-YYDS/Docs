@@ -141,8 +141,13 @@
 
 ```json
 {
-  "Type": enum (OK or ERR),
-  "Message": String
+  "Pcs": {
+    "uuid": {
+      "Type": enum (OK or ERR),
+      "Message": String
+    },
+  }
+  "Length": Pcs.len
 }
 ```
 
@@ -167,8 +172,13 @@
 
 ```json
 {
-  "Type": enum (OK or ERR),
-  "Message": String
+  "Pcs": {
+    "uuid": {
+      "Type": enum (OK or ERR),
+      "Message": String
+    },
+  }
+  "Length": Pcs.len
 }
 ```
 
