@@ -182,7 +182,7 @@
       "Type": enum (OK or ERR),
       "Message": String
     },...
-  }
+  },
   "Length": Pcs.len
 }
 ```
