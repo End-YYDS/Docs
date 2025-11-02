@@ -227,7 +227,7 @@
 ```json
 {
   "Groupname": String,
-  "Describe": String
+  "Cidr": String
 }
 ```
 
