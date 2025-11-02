@@ -257,7 +257,7 @@
 {
   "vxlanid":{
     "Groupname": String,
-    "Pcs": [uuid.hostname]
+    "Pcs": [uuid]
   }
 }
 ```
