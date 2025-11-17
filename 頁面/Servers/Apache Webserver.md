@@ -26,6 +26,7 @@
   "Cpu": float,
   "Memory": float, // 使用率
   "Connections": Int,
+  "Ip": String,
   "Logs": {
     "Error_log": [
       {
