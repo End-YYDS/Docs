@@ -67,9 +67,7 @@
 ```Json
 {
   "Pcs": {
-    "uuid": {
-      "hostname": string,
-  },
+    "uuid": "hostname",
   "Length": Pcs.len
 }
 ```
