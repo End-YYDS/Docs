@@ -59,8 +59,7 @@ id 傳 -1 表索取全部數據 正整數表第幾台主機
 
 ```json
 {
-  //target = "info.safe, info.warn, info.dang, cluster.Cpu, cluster.Memory, cluster.Disk"
-  "Zone": "info",
+  //target = "safe, warn, dang"
   "Target": "safe",
   "Uuid": String, (None) if all data
 }
