@@ -38,7 +38,7 @@
   "Pcs": {
     "uuid": {
       "Hostname": String,
-      "Status": enum (active|stopped),
+      "Status": enum (active|stopped|uninstalled),
       "Cpu": float,
       "Memory": float,
     }, …
@@ -67,12 +67,7 @@
 ```Json
 {
   "Pcs": {
-    "uuid": {
-      "Hostname": String,
-      "Status": enum (active|stopped),
-      "Cpu": float,
-      "Memory": float,
-    }, …
+    "uuid": "Hostname",
   },
   "Length": Pcs.len
 }
