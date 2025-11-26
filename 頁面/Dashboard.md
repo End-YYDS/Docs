@@ -74,7 +74,10 @@ id 傳 -1 表索取全部數據 正整數表第幾台主機
     "uuid": {
       "Cpu": float,
       "Memory": float,
-      "Disk": float
+      "Disk": float,
+      "Cpu_status": enum (safe|warn|dang),
+      "Mem_status": enum (safe|warn|dang),
+      "Disk_status": enum (safe|warn|dang)
     }, …
   },
   "Length": Pcs.len
