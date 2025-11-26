@@ -16,7 +16,7 @@
 
 點進 Sidebar 中其中一個 server 後
 
-### 取得已安裝某 server 的所有電腦
+### 取得已安裝某 server 的所有電腦（只限 Agent）
 
 #### 位置
 
@@ -47,7 +47,7 @@
 }
 ```
 
-### 取得未安裝某 server 的所有電腦
+### 取得未安裝某 server 的所有電腦（只限 Agent）
 
 #### 位置
 
@@ -67,7 +67,7 @@
 ```Json
 {
   "Pcs": {
-    "uuid": "Hostname",
+    "uuid": "hostname",
   },
   "Length": Pcs.len
 }
