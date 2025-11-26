@@ -22,7 +22,7 @@
 ```json
 {
   "Hostname": String,
-  "Status": enum (active|stopped), // 是否正在運行
+  "Status": enum (active|stopped|uninstalled), // 是否正在運行
   "Cpu": float,
   "Memory": float, // 使用率
   "Connections": Int,
