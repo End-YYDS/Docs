@@ -377,11 +377,18 @@ update模組的版本。
 
 ```json
 {
-  // "Temperature": Float,
-  "Cpu_usage": Float,
-  "Disk_usage": Float,
-  "Memory": Float,
-  "Network": Float
+  "Cpu_usage": {
+    "Warn": Float,
+    "Dang": Float
+  },
+  "Disk_usage": {
+    "Warn": Float,
+    "Dang": Float
+  },
+  "Memory": {
+    "Warn": Float,
+    "Dang": Float
+  },
 }
 ```
 
@@ -398,10 +405,18 @@ update模組的版本。
 
 ```json
 {
-  "Cpu_usage": Float,
-  "Disk_usage": Float,
-  "Memory": Float,
-  "Network": Float
+  "Cpu_usage": {
+    "Warn": Float,
+    "Dang": Float
+  },
+  "Disk_usage": {
+    "Warn": Float,
+    "Dang": Float
+  },
+  "Memory": {
+    "Warn": Float,
+    "Dang": Float
+  },
 }
 ```
 
